@@ -1,5 +1,12 @@
 language ESSENCE' 1.0
 
+letting input_size = 10000
+letting output_size = 1
 letting queue_fams = 4
 letting subgroup_size = 32
-letting input_size = 5235
+letting queue_families = [
+    [1, 2, 3],
+    [1, -1, -1],
+    [1, 2, 3]
+]
+letting MAX_STEPS = 5
